@@ -14,7 +14,7 @@ public class Objects extends Parent {
     }
 
     @FindBy(css = "div[role='button']")
-    private WebElement hamburgerMenü;
+    private WebElement hamburgerMenu;
     @FindBy(linkText = "Karriere")
     private WebElement karriere;
     @FindBy(linkText = "Akzeptieren")
@@ -37,33 +37,6 @@ public class Objects extends Parent {
 
 
 
-    @FindBy(css = "input[formcontrolname='username']")
-    public WebElement username;
-    @FindBy(css = "input[formcontrolname='password']")
-    public WebElement password;
-    @FindBy(css = "span[class='logo-text ng-star-inserted']")
-    public WebElement textTechnoStudy;
-    @FindBy(css = "button[aria-label='LOGIN']")
-    public WebElement loginButton;
-    @FindBy(linkText = "Academy")
-    public WebElement academy;
-    @FindBy(linkText = "Training and Dates")
-    public WebElement training;
-    @FindBy(linkText = "allow all cookies")
-    public WebElement cookies;
-    @FindBy(linkText = "ISTQB® Certified Tester AI Testing")
-    public WebElement aiTestingText;
-    @FindBy(linkText = "Contact")
-    public WebElement contact;
-
-    @FindBy(xpath = "(//a[text()='ISTQB® Certified Tester AI Testing'])[2]")
-    public WebElement aiTestingXTextt;
-    @FindBy(xpath = "(//a[text()='details & dates'])[2]")
-    public WebElement deneme;
-    @FindBy(xpath = "//a[text()='details & dates']")
-    public WebElement aiTestingDetails;
-    @FindBy(tagName = "h1")
-    public WebElement title;
 
 
 
@@ -72,7 +45,7 @@ public class Objects extends Parent {
 
         switch (strButton)
         {
-            case "hamburgerMenü" : return hamburgerMenü;
+            case "hamburgerMenu" : return hamburgerMenu;
             case "karriere" : return karriere;
 
         }

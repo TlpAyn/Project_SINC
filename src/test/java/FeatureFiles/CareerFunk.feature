@@ -1,13 +1,14 @@
-Feature: Career Function
-
+Feature: Career Functions
 
   Scenario: Career Functions
 
-    Given Go to teh SINC Homepage
-    When Click to Burger Menü
-    And Go to the Karriere
-    And Click to Offenen Stellen
+    Given Go to the SINC Homepage
+    When Click to Hamburger Menu
+    And Click to Karriere
+    And Go to the Offenen Stellen
     And Click to Remote
-    And Click to QA Test Analiyst
-    Then approve job posting
+    And Go to the QA Analyst
+    Then Verify the name of QA Section
+
+
 
